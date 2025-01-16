@@ -1,0 +1,65 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <!-- Quiz Question -->
+    <TextView
+        android:id="@+id/questionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question goes here"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:padding="16dp"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Option Buttons -->
+    <Button
+        android:id="@+id/option1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Option 1"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        android:id="@+id/option2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Option 2"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        android:id="@+id/option3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Option 3"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        android:id="@+id/option4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Option 4"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Score and Rewards -->
+    <TextView
+        android:id="@+id/scoreText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score: 0"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/rewardsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Coins: 0"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp" />
+</LinearLayout>
